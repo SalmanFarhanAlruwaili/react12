@@ -1,0 +1,61 @@
+body { 
+  background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+  font-family: sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+ .imgandtext { 
+display: flex;
+flex-direction: column;
+ }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 13px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+
+}
+
+h2 { 
+  color: #fff;
+  padding: 10px 1px 1px 20px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  padding: 1px 10px 30px 10px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 15px;
+  padding: 8px;
+  align-items: center;
+
+}
+
+button {
+  font-size: 13px;
+  padding: 8px;
+  align-items: center;
+}
